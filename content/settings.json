@@ -1,8 +1,13 @@
 {
   "whatsapp": "+5543984758144",
   "delivery": 350,
-  "payment": ["Visa débito", "Visa crédito", "Master crédito", "Master débito"],
-  "title": "Nome do restaurante",
+  "payment": [
+    "Visa débito",
+    "Visa crédito",
+    "Master crédito",
+    "Master débito"
+  ],
+  "title": "Edião ",
   "description": "Faça seu pedido",
   "image": "/uploads/seo.jpg"
 }

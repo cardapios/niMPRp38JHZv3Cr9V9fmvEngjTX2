@@ -1072,10 +1072,10 @@
   resolved "https://registry.yarnpkg.com/@bugsnag/safe-json-stringify/-/safe-json-stringify-5.0.0.tgz#1c39847968b52f5c08b7c76754406f9d4446b292"
   integrity sha512-EdGnA7n2UmX9Z0e2tIU0biKz8tCgtjbY69KoyH3yiMzm7Q9sriIlN9bZjqhTOKzM0GdLSGrkyKWif08xWKyucA==
 
-"@cardapios/template@^9.0.1":
-  version "9.0.1"
-  resolved "https://npm.pkg.github.com/download/@cardapios/template/9.0.1/fcd822155694b3859df18bbdb95b8ce1e3588821a127b889f4e21ca7d483cf9c#903a42ad3ee7ad7e8dd88b19b0e6098b64a9cafd"
-  integrity sha512-XReEv+mDZaeWM0+kw5wHlxIXOSKnJ1Fivv4IvQLRinPoKuwD9hzioWJ6jSKSXjJeh4DncC3bZrQJ6I3czqGScQ==
+"@cardapios/template@^9.1.0":
+  version "9.1.0"
+  resolved "https://npm.pkg.github.com/download/@cardapios/template/9.1.0/24991274cb6f28eb3f3e1a0c4e2ac575d479da19da12d1f7f7ee7c34c4236bfd#4704661616aded6309856f98163b65aa202edb40"
+  integrity sha512-B7s3Djk1+vy1rzpuJzH4OPnWCJmwFn3Jggg0SwopNkeR+ohecHkYOGPdAkN20mKzzY5Q33JTx9fsGwzPntCXdg==
   dependencies:
     "@material-ui/core" "^4.10.2"
     "@material-ui/icons" "^4.9.1"
@@ -1088,6 +1088,7 @@
     netlify-cms-app "^2.12.15"
     qrcode.react "^1.0.0"
     react-color "^2.18.1"
+    react-fade-in "^1.1.0"
     react-ga "^3.0.0"
     react-phone-number-input "^3.0.23"
     react-redux "^7.2.0"
@@ -10694,6 +10695,11 @@ react-dom@^16.13.1, react-dom@^16.8.4:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-fade-in@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-fade-in/-/react-fade-in-1.1.0.tgz#82272eba4ae5843fed333e2c7f74dc5dbdab3864"
+  integrity sha512-sR36bwyimCRapcHEuEjbQkQzUuCh3BIOeQvrUc9X4HBN6nswZ3nuq1Zb0vh3lG1Xx2ZMduGMw8u4AwNGbHkI0g==
 
 react-fast-compare@^2.0.1:
   version "2.0.4"

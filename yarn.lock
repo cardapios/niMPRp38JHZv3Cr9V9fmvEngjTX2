@@ -1072,13 +1072,14 @@
   resolved "https://registry.yarnpkg.com/@bugsnag/safe-json-stringify/-/safe-json-stringify-5.0.0.tgz#1c39847968b52f5c08b7c76754406f9d4446b292"
   integrity sha512-EdGnA7n2UmX9Z0e2tIU0biKz8tCgtjbY69KoyH3yiMzm7Q9sriIlN9bZjqhTOKzM0GdLSGrkyKWif08xWKyucA==
 
-"@cardapios/template@^9.1.0":
-  version "9.1.0"
-  resolved "https://npm.pkg.github.com/download/@cardapios/template/9.1.0/24991274cb6f28eb3f3e1a0c4e2ac575d479da19da12d1f7f7ee7c34c4236bfd#4704661616aded6309856f98163b65aa202edb40"
-  integrity sha512-B7s3Djk1+vy1rzpuJzH4OPnWCJmwFn3Jggg0SwopNkeR+ohecHkYOGPdAkN20mKzzY5Q33JTx9fsGwzPntCXdg==
+"@cardapios/template@^9.3.2":
+  version "9.3.2"
+  resolved "https://npm.pkg.github.com/download/@cardapios/template/9.3.2/bec8f5acf07ca7d9a37b868fe51e702c46d590da08d61321d50d266cf8df63a9#2be1b1d11732b1b8a94280fb3963047b82651c9f"
+  integrity sha512-VEeaJVxZtCDnZBfprXjtc+ylUKH/s6zn2vVWLvuEyNFd1qzRp7/gCVbHd9oMjmDv/FOd5UfN1eDsHx8Fe2j9LA==
   dependencies:
     "@material-ui/core" "^4.10.2"
     "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "^4.0.0-alpha.56"
     "@reduxjs/toolkit" "^1.3.6"
     "@stripe/react-stripe-js" "^1.1.2"
     "@stripe/stripe-js" "^1.7.0"
@@ -1093,7 +1094,6 @@
     react-phone-number-input "^3.0.23"
     react-redux "^7.2.0"
     react-scroll "^1.7.16"
-    react-toastify "^6.0.5"
     redux-persist "^6.0.0"
     rollbar "^2.16.2"
     styled-components "^5.1.1"
@@ -1335,6 +1335,17 @@
   integrity sha512-GBitL3oBWO0hzBhvA9KxqcowRUsA0qzwKkURyC8nppnC3fw54KPKZ+d4V1Eeg/UnDRSzDaI9nGCdel/eh9AQMg==
   dependencies:
     "@babel/runtime" "^7.4.4"
+
+"@material-ui/lab@^4.0.0-alpha.56":
+  version "4.0.0-alpha.56"
+  resolved "https://registry.yarnpkg.com/@material-ui/lab/-/lab-4.0.0-alpha.56.tgz#ff63080949b55b40625e056bbda05e130d216d34"
+  integrity sha512-xPlkK+z/6y/24ka4gVJgwPfoCF4RCh8dXb1BNE7MtF9bXEBLN/lBxNTK8VAa0qm3V2oinA6xtUIdcRh0aeRtVw==
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+    "@material-ui/utils" "^4.10.2"
+    clsx "^1.0.4"
+    prop-types "^15.7.2"
+    react-is "^16.8.0"
 
 "@material-ui/styles@^4.10.0":
   version "4.10.0"
@@ -3514,7 +3525,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.6, classnames@^2.2.5, classnames@^2.2.6:
+classnames@2.2.6, classnames@^2.2.5:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
@@ -10922,15 +10933,6 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-toastify@^6.0.5:
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-6.0.5.tgz#6435b2bf6a298863bc71342dcc88e8283cdb4630"
-  integrity sha512-1YXSb6Jr478c1TJEyVpxLHFvtmeXGMvdpZc0fke/7lK+MoLBC+NFgB74bq+C2SZe6LdK+K1voEURJoY88WqWvA==
-  dependencies:
-    classnames "^2.2.6"
-    prop-types "^15.7.2"
-    react-transition-group "^4.4.1"
-
 react-toggled@^1.1.2:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/react-toggled/-/react-toggled-1.2.7.tgz#be1b72058358dd1ffe11811e4427e5c9cf140c10"
@@ -10964,7 +10966,7 @@ react-transition-group@^2.2.1, react-transition-group@^2.6.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-transition-group@^4.4.0, react-transition-group@^4.4.1:
+react-transition-group@^4.4.0:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
   integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
